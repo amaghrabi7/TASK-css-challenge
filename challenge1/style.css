@@ -1,0 +1,22 @@
+img {
+  display: block;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+body {
+  background-color: #301934;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
