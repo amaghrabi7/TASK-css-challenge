@@ -3,24 +3,23 @@ body {
 }
 
 .flex-container {
-  margin: 25% auto;
-  width: 40%;
-  height: 40%;
-  border-radius: 10%;
   display: flex;
-  background-color: white;
-  flex-direction: column;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
-.flex-container > div {
+.card {
+  background-color: white;
+  width: 300px;
   text-align: center;
+  border-radius: 40px;
+  -webkit-box-shadow: 5px 6px 13px 1px rgba(0, 0, 0, 0.64);
+  box-shadow: 5px 6px 13px 1px rgba(0, 0, 0, 0.64);
+  padding: 15px;
 }
-
 img {
-  margin: 20px 0px 0px 0px;
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
