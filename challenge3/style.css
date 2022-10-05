@@ -1,10 +1,25 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  font-family: cursive;
+  background-color: cornsilk;
+  color: cornflowerblue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#list {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .row {
+  background-color: darkslateblue;
+  color: aliceblue;
   /* .row is used in ./index.js not in the html filee */
 }
 
